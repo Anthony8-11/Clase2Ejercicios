@@ -24,20 +24,20 @@ public class Main {
 
 
         int varA, varB;
-        varA=Integer.valueOf(a).intValue();
-        varB=Integer.valueOf(b).intValue();
+        //varA=Integer.valueOf(a).intValue();
+        //varB=Integer.valueOf(b).intValue();
 
 
 
 
         clsEjemplo ej = new clsEjemplo();
-        ej.calculo(varA,varB);
+        //ej.calculo(varA,varB);
 
         System.out.print("Ingrese el radio: ");
         String a = br.readLine();
 
         clsEjercicioClase ej1 = new clsEjercicioClase();
-        ej1.ejercicio1(varA);
+        //ej1.ejercicio1(varA);
 
 
     }
